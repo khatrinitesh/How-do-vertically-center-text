@@ -1,0 +1,33 @@
+/* line 1, ../sass/common.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/common.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 13, ../sass/common.scss */
+ul li {
+  position: relative;
+}
+
+/* line 19, ../sass/common.scss */
+.content {
+  height: 200px;
+  display: table;
+  width: 200px;
+  border: 1px solid red;
+}
+/* line 24, ../sass/common.scss */
+.content .inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
